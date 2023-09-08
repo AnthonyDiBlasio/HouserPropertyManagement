@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Styles for desktop screens */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html, body {
+
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Ubuntu', sans-serif
+ 
+}
+.col{
+  font-size: large;
+}
+.row{
+  width: 100%;
+  margin: auto;
+}
+/* Ensure the footer stays at the bottom */
+.footer-basic {
+  margin-top: auto;
+  height: 5pc;
+  background-color: white;
+}
+.PhotoGroup{
+  position: relative;
+  max-width: 70%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10pc;
+  margin-bottom: 5pc;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+.Navbar{
+  background-color:#709176;
+
+}
+.nav-logo{
+  position: relative;
+  left: 100px ;
+  border-radius: 5%;
+  border-style:groove;
+  border-color: white;
+}
+.ImgOverlay{
+top: 0;
+left: 0;
+max-width: 50%;
+}
+.services{
+  font-size: x-large;
+  margin: 5px;
+  padding: 5px;
+}
+.call{
+  position: relative;
+  margin-top: 5pc;
+  font-size: 50px;
+}
+@media (max-width: 767px){
+  .col{
+    width: 500px;
+
+  }
+  .nav-logo{
+    position: relative;
+    left: 100px ;
+    border-radius: 5%;
+    border-style:groove;
+    border-color: white;
+  }
+  .ImgOverlay{
+    top: 0;
+    left: 0;
+    margin-top: 15pc;
+    max-width: 70%;
+    }
 }
