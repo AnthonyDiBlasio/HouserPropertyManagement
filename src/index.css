@@ -15,6 +15,8 @@ html, body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
 .container {
@@ -24,15 +26,25 @@ html, body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  font-family: 'Ubuntu', sans-serif
+  font-family: 'Ubuntu', sans-serif;
+
+
  
 }
 .col{
-  font-size: large;
+  font-size: larger;
+
 }
 .row{
+  box-sizing: border-box;
   width: 100%;
+  margin: 0;
+  padding: 0;
   margin: auto;
+
+}
+.first-row{
+  font-size: large;
 }
 /* Ensure the footer stays at the bottom */
 .footer-basic {
@@ -70,12 +82,15 @@ max-width: 50%;
 }
 .services{
   font-size: x-large;
+ 
   margin: 5px;
-  padding: 5px;
+  padding: 15px;
+  opacity: .8;
 }
 .call{
   position: relative;
   margin-top: 5pc;
+ 
   font-size: 50px;
 }
 @media (max-width: 767px){
