@@ -16,7 +16,7 @@ import photo8 from './images/photo8.jpg'
 import photo9 from './images/photo9.jpg'
 import photo10 from './images/photo10.jpg'
 import photo11 from './images/photo11.jpg'
-
+import banner from './images/banner.jpg'
 
 import logo from './images/houserlogo-removebg-preview.png'
 
@@ -24,17 +24,20 @@ import logo from './images/houserlogo-removebg-preview.png'
 function Home() {
     return (
          /* Site container*/
-        <div id='root'className=''>
+        <div id='root'>
+            <div className='container'>
+                
             <section className='row first-row'>
-                <div className='header'>
-                    <img className='ImgOverlay'style={{ marginTop: "5pc", marginLeft:"5pc"}} src={logo} alt='imgoverlay'></img>
-                    <div className='text-center'>Rooted In Quality, Growing in Trust
-                    <p>Houser Property Management has been servicing the greater Bucks County area for over 7 years.</p>
-                    </div>
+                <div className=''>
+                <img className='ImgOverlay'style={{ marginTop: "5pc", marginLeft:"5pc"}} src={logo} alt='imgoverlay'></img>
+             
                 </div>
             </section>
         <div className='container'>
          <section className='row'>
+         <div className='text-center'>Rooted In Quality, Growing in Trust
+                    <p>Houser Property Management has been servicing the greater Bucks County area for over 7 years.</p>
+                    </div>
                 <div style={{marginBottom:"5pc"}} className='text-center services'>Services Offered</div>
                 <div className='col col-2'>Landscaping
                     <img style={{ width: "100px" }} src={Mower} alt='mow'></img>
@@ -104,7 +107,9 @@ function Home() {
                             src={photo6}
                             alt="sixth slide"
                         />
-                        <Carousel.Item>
+                
+                    </Carousel.Item>
+                    <Carousel.Item>
                             <img
                                 className="d-block w-100"
                                 src={photo7}
@@ -139,12 +144,17 @@ function Home() {
                                 alt="11th slide"
                             />
                         </Carousel.Item>
-
-                    </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={banner}
+                                alt="11th slide"
+                            />
+                        </Carousel.Item>
                 </Carousel>
             </section>
             </div>
-      
+      </div>
         </div>
     );
 }

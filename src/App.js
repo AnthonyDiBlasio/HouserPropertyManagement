@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import CookieConsent from "react-cookie-consent";
 import Home from "./Home"
 import NavTab from "./NavTab";
 import Footer from "./Footer";
@@ -14,6 +15,7 @@ function App() {
       </Routes>
 
       <Footer />
+      <CookieConsent debug={true}>This site uses cookies.</CookieConsent>
 
     </Router>
   );

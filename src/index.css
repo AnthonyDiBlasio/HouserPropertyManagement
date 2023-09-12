@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
 
-html, body {
+html {
 
   height: 100%;
   overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -31,8 +31,14 @@ html, body {
 
  
 }
+.first-row{
+  font-size: large;
+
+}
+
 .col{
-  font-size: larger;
+  font-size: 21px;
+  text-align: center;
 
 }
 .row{
@@ -43,18 +49,15 @@ html, body {
   margin: auto;
 
 }
-.first-row{
-  font-size: large;
-}
 /* Ensure the footer stays at the bottom */
 .footer-basic {
   margin-top: auto;
   height: 5pc;
-  background-color: white;
+  
 }
 .PhotoGroup{
   position: relative;
-  max-width: 70%;
+  max-width: 50%;
   padding-right: 15px;
   padding-left: 15px;
   margin-top: 10pc;
@@ -65,7 +68,8 @@ html, body {
 
 }
 .Navbar{
-  background-color:#709176;
+  background-color: #709176;
+
 
 }
 .nav-logo{
@@ -76,8 +80,9 @@ html, body {
   border-color: white;
 }
 .ImgOverlay{
+  position: relative;
 top: 0;
-left: 0;
+right: 15%;
 max-width: 50%;
 }
 .services{
