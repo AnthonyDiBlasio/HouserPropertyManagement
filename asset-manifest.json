@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f4e2429.css",
+    "main.js": "/static/js/main.a580e177.js",
+    "static/js/787.55db37eb.chunk.js": "/static/js/787.55db37eb.chunk.js",
+    "static/media/photo5.jpg": "/static/media/photo5.a74f70a859363b94d2eb.jpg",
+    "static/media/photo3.jpg": "/static/media/photo3.8ff0affcf75d0d8b3d1d.jpg",
+    "static/media/banner.jpg": "/static/media/banner.76bd9e9b89596932af18.jpg",
+    "static/media/photo6.jpg": "/static/media/photo6.7728b769f17f90b9558c.jpg",
+    "static/media/photo11.jpg": "/static/media/photo11.48a3fd903c8690542a8c.jpg",
+    "static/media/photo7.jpg": "/static/media/photo7.bca8055a56015f6121b5.jpg",
+    "static/media/photo10.jpg": "/static/media/photo10.22c3453b3a9e515d2303.jpg",
+    "static/media/photo2.jpg": "/static/media/photo2.a4cc0a8f6f5edec896a7.jpg",
+    "static/media/photo1.jpg": "/static/media/photo1.ec73560e219d8884a6a1.jpg",
+    "static/media/photo4.jpg": "/static/media/photo4.a23780b776bdbafa475f.jpg",
+    "static/media/photo8.jpg": "/static/media/photo8.f91c1fc9ebbe1c205e91.jpg",
+    "static/media/photo9.jpg": "/static/media/photo9.3d5de517fc244bc22be8.jpg",
+    "static/media/houserlogo-removebg-preview.png": "/static/media/houserlogo-removebg-preview.f55c9ed46997d0fc1fa9.png",
+    "static/media/noun-trimming-grass-2147133.png": "/static/media/noun-trimming-grass-2147133.81f65be920900d3e2581.png",
+    "static/media/logo.jpg": "/static/media/logo.3ab817479ef192a0f96b.jpg",
+    "static/media/noun-mulching-4474764.png": "/static/media/noun-mulching-4474764.08265328d1af8e3b1a82.png",
+    "static/media/noun-construction-2085884.png": "/static/media/noun-construction-2085884.73bb8ddb15d567275f3a.png",
+    "static/media/noun-lawn-mower-197583.png": "/static/media/noun-lawn-mower-197583.e10066490ad25412b0cd.png",
+    "static/media/noun-snow-plow-4946438.png": "/static/media/noun-snow-plow-4946438.1f5cb8fffb38f3fcad4d.png",
+    "static/media/noun-tree-trimming-2057492.png": "/static/media/noun-tree-trimming-2057492.01593514d06834273269.png",
+    "index.html": "/index.html",
+    "main.0f4e2429.css.map": "/static/css/main.0f4e2429.css.map",
+    "main.a580e177.js.map": "/static/js/main.a580e177.js.map",
+    "787.55db37eb.chunk.js.map": "/static/js/787.55db37eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f4e2429.css",
+    "static/js/main.a580e177.js"
+  ]
+}
